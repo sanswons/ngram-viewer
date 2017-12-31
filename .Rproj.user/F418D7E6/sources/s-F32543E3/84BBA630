@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1514688843822.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "933660978",
+    "id" : "84BBA630",
+    "lastKnownWriteTime" : 1514693143,
+    "last_content_update" : 1514693143010,
+    "path" : "C:/Users/sanja/Desktop/Sanjana/books/CSE/Machine Learning/Projects/Moveworks/utils.R",
+    "project_path" : "utils.R",
+    "properties" : {
+        "cursorPosition" : "141,0",
+        "scrollLine" : "123"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
