@@ -5,9 +5,9 @@ account: sanswons
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 252650
-bundleId: 1156546
+bundleId: 1156554
 url: https://sanswons.shinyapps.io/Moveworks/
-when: 1514695160.55222
+when: 1514695927.21707
 asMultiple: FALSE
 asStatic: FALSE
 ignoredFiles: .gitattributes
