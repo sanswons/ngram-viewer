@@ -1,0 +1,13 @@
+name: ngram-viewer
+title: ngram-viewer
+username:
+account: sanswons
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 252664
+bundleId: 1156612
+url: https://sanswons.shinyapps.io/ngram-viewer/
+when: 1514700819.80079
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: .gitattributes

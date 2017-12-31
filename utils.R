@@ -145,7 +145,7 @@ create_plots = function(query){
   return (p)
 }
 
-#texts_df = extract_texts('task/')
-#create_ngrams_allbooks(texts_df, max_ngrams = 5)
+texts_df = extract_texts('task/')
+create_ngrams_allbooks(texts_df, max_ngrams = 5)
 
 
