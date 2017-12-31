@@ -86,7 +86,13 @@ search_ngrams = function(phrase, nyears, filenames){
   print('Searching')
   
   #Pre-process phrase to lower case and trim spaces
-  phrase = cleaning(paste(c(trimws(phrase), ' '),collapse = ''))
+  phrase = tolower(paste(c(trimws(phrase), ' '),collapse = ''))
+  
+  #Remove punctuation
+  phrase = gsub("[[:punct:]]", "", phrase)
+  
+  #Remove extra spaces
+  phrase = gsub('\\s+',' ', phrase)
   
   # find the n-gram length
   num_words = as.character(length(strsplit(phrase,split = " ")[[1]]))
