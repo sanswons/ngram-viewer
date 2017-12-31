@@ -86,7 +86,7 @@ search_ngrams = function(phrase, nyears, filenames){
   print('Searching')
   
   #Pre-process phrase to lower case and trim spaces
-  phrase = tolower(paste(c(trimws(phrase), ' '),collapse = ''))
+  phrase = cleaning(paste(c(trimws(phrase), ' '),collapse = ''))
   
   # find the n-gram length
   num_words = as.character(length(strsplit(phrase,split = " ")[[1]]))
@@ -139,7 +139,7 @@ create_plots = function(query){
   return (p)
 }
 
-texts_df = extract_texts('task/')
-create_ngrams_allbooks(texts_df, max_ngrams = 5)
+#texts_df = extract_texts('task/')
+#create_ngrams_allbooks(texts_df, max_ngrams = 5)
 
 
