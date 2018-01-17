@@ -180,10 +180,9 @@ check_spelling = function(phrase){
 }
 
 find_synonyms = function(query){
-  
+  suggestions = list()
   # check if string is empty
   if(Trim(query)!=''){
-    print('Yesssssssss')
     w = extract_last_word(Trim(query))
     
     #correct spelling
@@ -219,7 +218,6 @@ find_synonyms = function(query){
   else{
     suggestions[['Not found']] = 'Not found'
   }
-  print(suggestions)
   return(suggestions)
 }
 
@@ -264,6 +262,6 @@ tagPOS <-  function(x, ...) {
 
 texts_df = extract_texts('task/')
 create_ngrams_allbooks(texts_df, max_ngrams = 5)
-
+#create_plots('')
 
 
